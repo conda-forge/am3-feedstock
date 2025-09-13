@@ -1,5 +1,5 @@
 {% set name = "am3" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.desy.de/am3/{{ name }}/-/archive/v{{ version }}/{{ name }}-v{{ version }}.tar.gz
-  sha256: 92afb78f9c9aeeadfa373ce9f507e3a16939d3c70fa38ddcd901467df589cbe5
+  sha256: abe87b55b0ab015f5473f8dc4f0594fa806b159a32c0fe98b03b59a35b075870
 
 build:
   skip: true  # [win]
