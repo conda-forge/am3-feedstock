@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.desy.de/am3/{{ name }}/-/archive/v{{ version }}/{{ name }}-v{{ version }}.tar.gz
-  sha256: SHA2-256(stdin)= 6b70dd2f6c347d448c2d6140fdb70429d17135e6713ea6c095df1b34e4010e6a
+  sha256: d6b4a3122e00dbdc6fbc30c846fb268470914fc32369e3f090b67c9d75825879
 
 build:
   skip: true  # [win]
